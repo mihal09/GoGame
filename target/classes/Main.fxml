@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Main">
+    <center>
+    </center>
+    <right>
+        <VBox>
+            <TextField fx:id="textField" text="localhost"/>
+            <Button text="Connect"/>
+            <Separator/>
+            <Button mnemonicParsing="false" text="End turn"/>
+            <Label fx:id="colorLabel"/>
+            <Label fx:id="turnLabel"/>
+            <Label fx:id="winningLabel"/>
+            <Label fx:id="tiesLabel"/>
+        </VBox>
+    </right>
+
+    <stylesheets>
+        <URL value="@Main.css"/>
+    </stylesheets>
+</BorderPane>
