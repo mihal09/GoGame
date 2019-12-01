@@ -7,16 +7,10 @@ abstract class BoardAbstract extends Group {
     int size;
     //widths of particular rows
 
-
-    Field fields[][];
     Stone stones[][];
 
     public int getSize() {
         return size;
-    }
-
-    public Field getField(int x, int y) {
-        return fields[x][y];
     }
 
     public Stone getStone(int x, int y) {
