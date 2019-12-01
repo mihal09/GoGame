@@ -21,7 +21,7 @@ VBox {
 }
 
 Button {
-    -fx-pref-width: 200;
+    -fx-pref-width: -pref-width;
 }
 
 Label {

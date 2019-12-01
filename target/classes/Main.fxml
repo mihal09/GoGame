@@ -5,15 +5,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import java.net.URL?>
 <BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="sample.Main">
+            fx:controller="sample.MainController">
     <center>
     </center>
     <right>
         <VBox>
-            <TextField fx:id="textField" text="localhost"/>
-            <Button text="Connect"/>
+            <TextField fx:id="textField" onAction="#startClient" text="localhost"/>
+            <Button onAction="#startClient" text="Connect"/>
             <Separator/>
-            <Button mnemonicParsing="false" text="End turn"/>
+            <Button mnemonicParsing="false" onAction="#endTurn" text="End turn"/>
             <Label fx:id="colorLabel"/>
             <Label fx:id="turnLabel"/>
             <Label fx:id="winningLabel"/>
@@ -24,4 +24,3 @@
     <stylesheets>
         <URL value="@Main.css"/>
     </stylesheets>
-</BorderPane>

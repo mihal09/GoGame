@@ -1,138 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/../3SEM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="added abstract Board class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/test/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/test/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/HTMLBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/IReportBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/JSONBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/XMLBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/test/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/test/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/HTMLBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/IReportBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/JSONBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/XMLBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/test-classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/test-classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/CompositeShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/test-classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/test-classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/CommandJobIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/CommandJobIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/state/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/state/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/checkstyleidea-libs/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/TP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/TP.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieFakturyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieKlientaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieUslugiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Faktura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/FakturyStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ILoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Klient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/KlientStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/MockingLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ObliczCeneFaktury.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ObliczCeneUslugi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ResourceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Usluga.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/WyswietlanieFakturyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/sample2.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodanieUslugi.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodawanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodawanieKlienta.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/mainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/wyswietlanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/test/java/sample/ObliczCeneFakturyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/test/java/sample/sample.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodanieUslugi.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodawanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodawanieKlienta.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/mainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Faktura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/FakturyStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ILoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Klient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/KlientStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MockingLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ObliczCeneFaktury.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ObliczCeneUslugi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ResourceManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Usluga.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/wyswietlanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/test-classes/sample/ObliczCeneFakturyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bazy/lista 4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/Main.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -190,14 +67,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sample/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#3402#3588#0" expanded="true" />
+                <element signature="e#3587#3588#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/BoardAbtract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/ColorEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -205,8 +121,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#728#902#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,17 +138,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -234,26 +148,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="170" selection-start-line="6" selection-start-column="170" selection-end-line="6" selection-end-column="170" />
             </state>
           </provider>
         </entry>
@@ -264,9 +160,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>border</find>
+      <find>rectangle</find>
+      <find>radius</find>
+      <find>event</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -285,13 +190,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Main.css" />
         <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/PlayersEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/ColorEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Stone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/BoardAbtract.java" />
       </list>
     </option>
   </component>
@@ -312,6 +223,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,13 +285,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575146186491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575209918628" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -415,9 +327,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.MainController" />
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="GoMA" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -480,6 +391,49 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1575146350349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575146350349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added abstract Board class">
+      <created>1575209773118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209773118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added color enum">
+      <created>1575209816680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209816680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Stone class">
+      <created>1575209848756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209848756</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added board class">
+      <created>1575209893846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209893846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor board abstract">
+      <created>1575209910187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209910187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -488,7 +442,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2147651" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -497,9 +451,9 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -531,35 +485,19 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="added abstract Board class" />
+    <MESSAGE value="added color enum" />
+    <MESSAGE value="added Stone class" />
+    <MESSAGE value="added board class" />
+    <MESSAGE value="refactor board abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor board abstract" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -567,35 +505,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="170" selection-start-line="6" selection-start-column="170" selection-end-line="6" selection-end-column="170" />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/ColorEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#902#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="219">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#3402#3588#0" expanded="true" />
+            <element signature="e#3587#3588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/BoardAbtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
