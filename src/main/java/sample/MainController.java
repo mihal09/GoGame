@@ -20,8 +20,12 @@ public class MainController {
         board = new Board();
     }
 
+    public void clearBoard(){
+        board.clearStones();
+        drawBoard();
+    }
+
     public void drawBoard(){
-        //board = new Board();
         drawBackground();
         drawLines();
         drawStones();

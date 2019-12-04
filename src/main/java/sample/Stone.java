@@ -28,7 +28,6 @@ public class Stone extends Circle {
         setVisible(true);
         if(color == ColorEnum.BLACK) {
             setFill(Color.web("#1b1b1b"));
-            System.out.println("jestem czarny");
         }
         else if(color == ColorEnum.WHITE)
             setFill(Color.WHITE);

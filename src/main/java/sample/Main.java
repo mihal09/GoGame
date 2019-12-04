@@ -17,11 +17,11 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
         final MainController mainController = new MainController();
 
-        Button button = new Button("Odwiez plansze");
+        Button button = new Button("Wyczysc plansze");
         button.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
                 System.out.println("odwiezam");
-                mainController.drawBoard();
+                mainController.clearBoard();
             }
         });
         HBox hBox = new HBox(20, mainController.board, button);

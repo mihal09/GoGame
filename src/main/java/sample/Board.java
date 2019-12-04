@@ -3,8 +3,16 @@ package sample;
 public class Board extends BoardAbstract {
     public static final int offset = 40;
     public Board(){
-        size = 10;
+        size = 13;
         addStones();
+    }
+
+    protected void clearStones(){
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                stones[i][j].setColor(ColorEnum.EMPTY);
+            }
+        }
     }
 
     public void addStones(){
