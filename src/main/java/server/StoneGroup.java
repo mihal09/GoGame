@@ -34,4 +34,8 @@ public class StoneGroup {
     public ArrayList<Field> getStones(){
         return stones;
     }
+
+    public boolean containsStone(Field field){
+        return stones.contains(field);
+    }
 }
