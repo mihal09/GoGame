@@ -1,6 +1,8 @@
 package sample;
 
 
+import javafx.scene.effect.DropShadow;
+import javafx.scene.effect.InnerShadow;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 
@@ -26,11 +28,28 @@ public class Stone extends Circle {
 
     public void repaint() {
         setVisible(true);
+
+        DropShadow dropShadow = new DropShadow();
+        dropShadow.setRadius(5.0);
+        dropShadow.setOffsetX(3.0);
+        dropShadow.setOffsetY(3.0);
+        dropShadow.setColor(Color.web("#705634"));
+
+        InnerShadow innerShadow = new InnerShadow();
+        innerShadow.setInput(dropShadow);
+        innerShadow.setOffsetX(3.0f);
+        innerShadow.setOffsetY(3.0f);
+
         if(color == ColorEnum.BLACK) {
             setFill(Color.web("#1b1b1b"));
+            innerShadow.setColor(Color.web("#000000"));
+            setEffect(innerShadow);
         }
-        else if(color == ColorEnum.WHITE)
+        else if(color == ColorEnum.WHITE) {
             setFill(Color.WHITE);
+            innerShadow.setColor(Color.web("#5f5f5f"));
+            setEffect(innerShadow);
+        }
         else {
             setFill(Color.GRAY);
             //setVisible(false);

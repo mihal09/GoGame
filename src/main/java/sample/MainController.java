@@ -79,47 +79,26 @@ public class MainController {
     }
 
     public void drawStones() {
-
-        DropShadow dropShadow = new DropShadow();
-        dropShadow.setRadius(5.0);
-        dropShadow.setOffsetX(3.0);
-        dropShadow.setOffsetY(3.0);
-        dropShadow.setColor(Color.web("#705634"));
-
-
-
         for (int i = 0; i < board.getSize(); i++) {
             for (int j = 0; j < board.getSize(); j++) {
                 if (board.getStone(i, j) != null) {
-
                     Stone oldStone = board.getStone(i, j);
                     oldStone.setEffect(null);
                     final Stone stone = new Stone(oldStone);
                     board.stones[i][j] = stone;
-
-
-                    InnerShadow innerShadow = new InnerShadow();
-                    innerShadow.setInput(dropShadow);
-                    innerShadow.setOffsetX(3.0f);
-                    innerShadow.setOffsetY(3.0f);
-
-                    if(stone.getColor()==ColorEnum.WHITE)
-                        innerShadow.setColor(Color.web("#5f5f5f"));
-                    else
-                        innerShadow.setColor(Color.web("#000000"));
-
-
-                    stone.setEffect(innerShadow);
-
                     final int x = i;
                     final int y = j;
                     stone.setOnMouseClicked(new EventHandler<MouseEvent>() {
                         public void handle(MouseEvent event) {
                             putStone(x,y);
+                            System.out.println("on click");
                         }
                     });
-
-
+                    stone.setOnMouseDragOver(new EventHandler<MouseDragEvent>() {
+                        public void handle(MouseDragEvent event) {
+                            System.out.println("on mouse  over");
+                        }
+                    });
                     stone.repaint();
                     board.getChildren().addAll(stone);
                 }
