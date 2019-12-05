@@ -14,6 +14,15 @@ public class StoneGroup {
         this.board = board;
     }
 
+    public StoneGroup(StoneGroup stoneGroup){
+        this.color = stoneGroup.getColor();
+        this.board = stoneGroup.getBoard();
+        stones = new ArrayList<Field>();
+        for (Field stone : stoneGroup.getStones()) {
+            stones.add(stone);
+        }
+    }
+
     public void addStone(Field stone){
         stones.add(stone);
     }
@@ -33,6 +42,14 @@ public class StoneGroup {
 
     public ArrayList<Field> getStones(){
         return stones;
+    }
+
+    public ColorEnum getColor(){
+        return color;
+    }
+
+    public Board getBoard(){
+        return board;
     }
 
     public boolean containsStone(Field field){

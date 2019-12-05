@@ -9,6 +9,7 @@ public class Board {
 
     public Board(int size){
         this.size = size;
+        this.groups = new ArrayList<StoneGroup>();
         fields = new Field[size][size];
         for(int i = 0; i < size; i++){
             for(int j = 0; j < size; j++){
@@ -16,6 +17,15 @@ public class Board {
             }
         }
     }
+
+//    public ArrayList<StoneGroup> makeGroupsCopy(){
+//        ArrayList<StoneGroup> copy = new ArrayList<StoneGroup>();
+//        for (StoneGroup oldGroup : groups) {
+//            StoneGroup newGroup = new StoneGroup(oldGroup);
+//            copy.add(newGroup);
+//        }
+//        return copy;
+//    }
 
     public boolean isInsideBoard(int x, int y){
         return (x >= 0 && x < size && y >= 0 && y < size);
@@ -50,6 +60,7 @@ public class Board {
 
 
         StoneGroup newGroup = new StoneGroup(this, color);
+        newGroup.addStone(getField(x,y));
 
         for(int i=-1; i<=1; i++){
             for(int j=-1; j<=1; j++){
@@ -86,14 +97,6 @@ public class Board {
 
 
     ArrayList<StoneGroup> getGroups(){
-        int map[][] = new int[size][size];
-
-        for(int i = 0; i < size; i++){
-            for(int j = 0; j < size; j++){
-                map[i][j] = 0;
-            }
-        }
-
-        return null;
+        return groups;
     }
 }
