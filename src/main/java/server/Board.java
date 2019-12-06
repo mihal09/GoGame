@@ -78,11 +78,8 @@ public class Board {
                 }
             }
         }
-
         groupsCopy.add(newGroup);
-
         groups = groupsCopy;
-
 
         return true;
     }
