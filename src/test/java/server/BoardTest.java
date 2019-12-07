@@ -16,5 +16,14 @@ public class BoardTest {
         board.isMoveLegal(1,0,ColorEnum.BLACK);
         Assert.assertEquals(board.getGroups().size(),1);
 
+        board = new Board(4);
+        board.isMoveLegal(0,1,ColorEnum.BLACK);
+        board.isMoveLegal(1,0,ColorEnum.BLACK);
+        Assert.assertEquals(board.getGroups().size(),2);
+        board.isMoveLegal(1,1,ColorEnum.BLACK);
+        Assert.assertEquals(board.getGroups().size(),1);
+        board.isMoveLegal(0,0,ColorEnum.BLACK);
+        Assert.assertEquals(board.getGroups().size(),1);
+
     }
 }

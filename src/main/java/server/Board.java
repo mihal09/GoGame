@@ -60,7 +60,9 @@ public class Board {
 
 
         StoneGroup newGroup = new StoneGroup(this, color);
+        ArrayList<StoneGroup> adjacentGroups = new ArrayList<StoneGroup>();
         newGroup.addStone(getField(x,y));
+
 
         for(int i=-1; i<=1; i++){
             for(int j=-1; j<=1; j++){
@@ -71,13 +73,20 @@ public class Board {
 
                 if(isSameColor(newX,newY, color)){
                     StoneGroup group = findGroupWithStone(groupsCopy, getField(newX,newY));
-                    for(Field stone : group.getStones()){
-                        newGroup.addStone(stone);
+                    if(!adjacentGroups.contains(group)){
+                        adjacentGroups.add(group);
                     }
-                    groupsCopy.remove(group);
                 }
             }
         }
+
+        for (StoneGroup group : adjacentGroups) {
+            for(Field stone : group.getStones()){
+                newGroup.addStone(stone);
+            }
+            groupsCopy.remove(group);
+        }
+
         groupsCopy.add(newGroup);
         groups = groupsCopy;
 
