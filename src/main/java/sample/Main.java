@@ -15,7 +15,7 @@ public class Main extends Application {
 
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
-        final MainController mainController = new MainController();
+        final MainControllerTest mainController = new MainControllerTest();
 
         Button button = new Button("Wyczysc plansze");
         button.setOnAction(new EventHandler<ActionEvent>() {

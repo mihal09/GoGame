@@ -5,6 +5,11 @@ import java.util.ArrayList;
 public class Board {
     private int size;
     private Field fields[][];
+
+    public void setGroups(ArrayList<StoneGroup> groups) {
+        this.groups = groups;
+    }
+
     private ArrayList<StoneGroup> groups;
 
     public Board(int size){
@@ -49,60 +54,11 @@ public class Board {
         return null;
     }
 
-    public boolean isMoveLegal(int x, int y, ColorEnum color){
-        if(!isEmpty(x,y))
-            return false;
-
-
-        getField(x,y).setColor(color);
-
-        ArrayList<StoneGroup> groupsCopy = new ArrayList<StoneGroup>(groups);
-
-
-        StoneGroup newGroup = new StoneGroup(this, color);
-        ArrayList<StoneGroup> adjacentGroups = new ArrayList<StoneGroup>();
-        newGroup.addStone(getField(x,y));
-
-
-        for(int i=-1; i<=1; i++){
-            for(int j=-1; j<=1; j++){
-                if((i==0 && j == 0) || (i!=0 && j!=0))
-                    continue;
-                int newX = x+i;
-                int newY = y+j;
-
-                if(isSameColor(newX,newY, color)){
-                    StoneGroup group = findGroupWithStone(groupsCopy, getField(newX,newY));
-                    if(!adjacentGroups.contains(group)){
-                        adjacentGroups.add(group);
-                    }
-                }
-            }
-        }
-
-        for (StoneGroup group : adjacentGroups) {
-            for(Field stone : group.getStones()){
-                newGroup.addStone(stone);
-            }
-            groupsCopy.remove(group);
-        }
-
-        groupsCopy.add(newGroup);
-        groups = groupsCopy;
-
-        return true;
-    }
-
-    public StoneGroup findGroupWithStone(ArrayList<StoneGroup> groupsList, Field stone){
-        for( StoneGroup stoneGroup : groupsList){
-            if(stoneGroup.containsStone(stone))
-                return stoneGroup;
-        }
-        return null;
-    }
-
-
     ArrayList<StoneGroup> getGroups(){
         return groups;
+    }
+
+    public void removeGroup(StoneGroup group){
+        groups.remove(group);
     }
 }

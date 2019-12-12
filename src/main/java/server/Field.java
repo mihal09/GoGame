@@ -35,4 +35,8 @@ public class Field {
         this.color = color;
     }
 
+    public String toString(){
+        return String.valueOf(getX()) + " " + String.valueOf(getY());
+    }
+
 }

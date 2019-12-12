@@ -23,6 +23,10 @@ public class StoneGroup {
         }
     }
 
+    public int size(){
+        return stones.size();
+    }
+
     public void addStone(Field stone){
         stones.add(stone);
     }
