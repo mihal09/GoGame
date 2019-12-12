@@ -68,6 +68,7 @@ public class Controller {
                 groupsCopy.remove(group);
             }
         }
+        groupsCopy.add(newGroup);
 
         //
 
@@ -79,9 +80,9 @@ public class Controller {
         Field temporaryKoKilled = null;
 
         if(deadCurrentPlayerGroups.size() > 0){ //if current player's group
-            System.out.println(deadCurrentPlayerGroups.size());
+            System.out.println("NASZ MOZE UMRZEC");
             if(deadEnemyPlayerGroups.size() > 0){ //if enemy's group died,
-
+                System.out.println("UMIERA PRZECIWNIK");
 
                 if(deadEnemyPlayerGroups.size() == 1){
                     if(deadEnemyPlayerGroups.get(0).size() == 1){
@@ -112,6 +113,7 @@ public class Controller {
             }
         }
         else{
+            System.out.println(deadCurrentPlayerGroups.size());
             if(deadEnemyPlayerGroups.size() > 0){
                 if(deadEnemyPlayerGroups.size() == 1){
                     if(deadEnemyPlayerGroups.size() == 1){
@@ -142,7 +144,6 @@ public class Controller {
 
         koKilled = temporaryKoKilled ;
         koKiller = temporaryKoKiller;
-        groupsCopy.add(newGroup);
         board.setGroups(groupsCopy);
 
 
