@@ -232,7 +232,7 @@ public class Game {
     }
     public class BotPlayer extends Player {
         private Game game;
-        BotMoveStrategy botMoveStrategy;
+        private BotMoveStrategy botMoveStrategy;
 
         BotPlayer(ColorEnum color, Game game, BotMoveStrategy botMoveStrategy) {
             alive = true;
