@@ -87,7 +87,7 @@ public class LogicController {
             if(deadEnemyPlayerGroups.size() > 0){ //if enemy's group died,
 
                 if(deadEnemyPlayerGroups.size() == 1){
-                    if(deadEnemyPlayerGroups.get(0).size() == 1){
+                    if(deadEnemyPlayerGroups.get(0).getSize() == 1){
                         Field dyingStone = deadEnemyPlayerGroups.get(0).getStones().get(0);
                         if(currentStone.equals(koKilled) && dyingStone.equals(koKiller)){ //KO
                             currentStone.setColor(ColorEnum.EMPTY);
@@ -119,7 +119,7 @@ public class LogicController {
             if(deadEnemyPlayerGroups.size() > 0){
                 if(deadEnemyPlayerGroups.size() == 1){
                     if(deadEnemyPlayerGroups.size() == 1){
-                        if(deadEnemyPlayerGroups.get(0).size() == 1){
+                        if(deadEnemyPlayerGroups.get(0).getSize() == 1){
                             Field dyingStone = deadEnemyPlayerGroups.get(0).getStones().get(0);
                             if(currentStone.equals(koKilled) && dyingStone.equals(koKiller)){ //KO
                                 System.out.print("KO2");

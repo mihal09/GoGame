@@ -38,7 +38,7 @@ public class Field {
     }
 
     public String toString(){
-        return String.valueOf(getX()) + " " + String.valueOf(getY());
+        return getX() + " " + getY();
     }
 
 }

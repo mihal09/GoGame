@@ -4,7 +4,7 @@ import client.enums.ColorEnum;
 import javafx.scene.Group;
 
 abstract class BoardAbstract extends Group {
-    //size of the board
+    //getSize of the board
     int size;
     //widths of particular rows
 

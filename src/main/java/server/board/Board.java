@@ -37,8 +37,6 @@ public class Board {
 
     public int getSize(){return size;}
 
-    public Field getStone(int x, int y) {return fields[x][y];}
-
     public boolean isInsideBoard(int x, int y){
         return (x >= 0 && x < size && y >= 0 && y < size);
     }

@@ -27,7 +27,7 @@ public class StoneGroup {
 //        }
 //    }
 
-    public int size(){
+    public int getSize(){
         return stones.size();
     }
 

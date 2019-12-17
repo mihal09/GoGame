@@ -27,7 +27,7 @@ public class ProtocolServer {
         for (int x=0; x<board.getSize(); x++){
             for (int y=0; y<board.getSize(); y++){
                 char field = ' ';
-                switch ( board.getStone(x,y).getColor()){
+                switch ( board.getField(x,y).getColor()){
                     case BLACK:
                         field = 'B';
                         break;
