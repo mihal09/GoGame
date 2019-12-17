@@ -3,7 +3,7 @@ package client.board;
 import client.enums.ColorEnum;
 
 public class Board extends BoardAbstract {
-    public static final int offset = 30;
+    public static final int offset = 25;
     public Board(int size){
         this.size = size;
         addStones();

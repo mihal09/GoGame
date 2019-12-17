@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="tests + uml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/board/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/board/Stone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/enums/PlayerState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/enums/PlayerState.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,26 +79,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/board/Board.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setAgreementVisibility#0;class#Main#0" />
-                <element signature="method#endGame#0;class#Main#0" />
-                <element signature="method#showEndMessage#0;class#Main#0" />
-                <element signature="method#startGame#0;class#Main#0" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            <state relative-caret-position="925">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,20 +114,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="method#setAgreementVisibility#0;class#Main#0" />
+                <element signature="method#endGame#0;class#Main#0" />
+                <element signature="method#showEndMessage#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="134">
+              <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#makeMove#0;class#MainController#0" />
@@ -150,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1918">
+            <state relative-caret-position="-490">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -241,7 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/Protocol.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/BotPlayer.java" />
@@ -259,9 +270,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sample/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/StoneGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Board.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/board/Stone.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/board/BoardAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/player/Player.java" />
@@ -270,7 +279,6 @@
         <option value="$PROJECT_DIR$/src/main/java/server/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/enums/GameState.java" />
         <option value="$PROJECT_DIR$/src/main/resources/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/client/board/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/ProtocolServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/server/BoardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/board/Field.java" />
@@ -292,6 +300,10 @@
         <option value="$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/board/Stone.java" />
       </list>
     </option>
   </component>
@@ -370,15 +382,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="board" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
@@ -469,11 +472,6 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
-              <item name="UML" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -489,12 +487,12 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576624021505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576626006271" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoMA klient1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -949,7 +947,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3937677" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10906515" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1756374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1105,14 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1331,54 +1321,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#makeMove#0;class#MainController#0" />
-            <element signature="method#startGame#0;class#MainController#0" />
-            <element signature="method#startAgreeing#0;class#MainController#0" />
-            <element signature="method#stopAgreeing#0;class#MainController#0" />
-            <element signature="method#territoryAgree#0;class#MainController#0" />
-            <element signature="method#territoryDisagree#0;class#MainController#0" />
-            <element signature="method#drawLines#0;class#MainController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setAgreementVisibility#0;class#Main#0" />
-            <element signature="method#endGame#0;class#Main#0" />
-            <element signature="method#showEndMessage#0;class#Main#0" />
-            <element signature="method#startGame#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/client.plantuml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1918">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1389,16 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/board/BoardAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1406,10 +1342,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/client.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="method#setAgreementVisibility#0;class#Main#0" />
+            <element signature="method#endGame#0;class#Main#0" />
+            <element signature="method#showEndMessage#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#makeMove#0;class#MainController#0" />
+            <element signature="method#startGame#0;class#MainController#0" />
+            <element signature="method#startAgreeing#0;class#MainController#0" />
+            <element signature="method#stopAgreeing#0;class#MainController#0" />
+            <element signature="method#territoryAgree#0;class#MainController#0" />
+            <element signature="method#territoryDisagree#0;class#MainController#0" />
+            <element signature="method#drawLines#0;class#MainController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,12 +19,14 @@ public class Main extends Application {
     private Stage primaryStage;
     private static MainController mainController;
     private Button buttonAgree, buttonDisagree, buttonPass;
+    private static Button buttonJoin;
 
     public void start(Stage stage) throws Exception {
         this.primaryStage = stage;
         mainController = new MainController(this);
 
         Parent root = FXMLLoader.load(getClass().getResource("/menu.fxml"));
+        buttonJoin = (Button) root.lookup("#buttonJoin");
 
         primaryStage.setTitle("Go");
         primaryStage.setScene(new Scene(root));
@@ -40,6 +42,14 @@ public class Main extends Application {
         String ipAddress = textFieldIP.getText();
         mainController.startClient(ipAddress);
         System.out.println("JOIN GAME");
+        joinBlock();
+    }
+
+    void joinBlock(){
+        buttonJoin.setDisable(true);
+    }
+    void joinUnblock(){
+        buttonJoin.setDisable(false);
     }
 
     void setAgreementVisibility(boolean isVisible){
