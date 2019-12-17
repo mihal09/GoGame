@@ -5,27 +5,26 @@ import sample.Stone;
 import java.util.ArrayList;
 
 public class Controller {
-    Board board;
+    private Board board;
     Field koKilled;
     Field koKiller;
-    ColorEnum currentPlayer;
+
+
+    private ColorEnum currentPlayer;
+    int whiteScore, blackScore;
 
     public Controller(int size){
         board = new Board(size);
         koKilled = null;
         koKilled = null;
         currentPlayer = ColorEnum.BLACK;
+        whiteScore = blackScore = 0;
     }
 
-    public boolean isMoveLegal(int x, int y){
-        boolean result = isMoveLegal(x,y,currentPlayer);
-        if(result){
-            currentPlayer = currentPlayer == ColorEnum.BLACK ? ColorEnum.WHITE : ColorEnum.BLACK;
-        }
-        return result;
-    }
 
     public boolean isMoveLegal(int x, int y, ColorEnum color){
+        if(!currentPlayer.equals(color))
+            return false;
         System.out.println("zaczynam sprawdzac legalnosc");
         if(!board.isEmpty(x,y))
             return false;
@@ -79,18 +78,14 @@ public class Controller {
         Field temporaryKoKiller = null;
         Field temporaryKoKilled = null;
 
+
         if(deadCurrentPlayerGroups.size() > 0){ //if current player's group
-            System.out.println("NASZ MOZE UMRZEC");
             if(deadEnemyPlayerGroups.size() > 0){ //if enemy's group died,
-                System.out.println("UMIERA PRZECIWNIK");
 
                 if(deadEnemyPlayerGroups.size() == 1){
                     if(deadEnemyPlayerGroups.get(0).size() == 1){
                         Field dyingStone = deadEnemyPlayerGroups.get(0).getStones().get(0);
                         if(currentStone.equals(koKilled) && dyingStone.equals(koKiller)){ //KO
-                            System.out.print("KO1");
-                            System.out.println(koKilled);
-                            System.out.println(koKiller);
                             currentStone.setColor(ColorEnum.EMPTY);
                             return false;
                         }
@@ -101,6 +96,10 @@ public class Controller {
                 for(StoneGroup deadGroup : deadEnemyPlayerGroups){
                     System.out.println("ZABIJAM TU");
                     for(Field deadStone : deadGroup.getStones()){
+                        if(deadGroup.getColor().equals(ColorEnum.BLACK))
+                            whiteScore++;
+                        else
+                            blackScore++;
                         deadStone.setColor(ColorEnum.EMPTY);
                     }
                     groupsCopy.remove(deadGroup);
@@ -113,7 +112,6 @@ public class Controller {
             }
         }
         else{
-            System.out.println(deadCurrentPlayerGroups.size());
             if(deadEnemyPlayerGroups.size() > 0){
                 if(deadEnemyPlayerGroups.size() == 1){
                     if(deadEnemyPlayerGroups.size() == 1){
@@ -134,6 +132,10 @@ public class Controller {
                 for(StoneGroup deadGroup : deadEnemyPlayerGroups){
                     System.out.println("ZABIJAM");
                     for(Field deadStone : deadGroup.getStones()){
+                        if(deadGroup.getColor().equals(ColorEnum.BLACK))
+                            whiteScore++;
+                        else
+                            blackScore++;
                         deadStone.setColor(ColorEnum.EMPTY);
                     }
                     groupsCopy.remove(deadGroup);
@@ -145,7 +147,8 @@ public class Controller {
         koKilled = temporaryKoKilled ;
         koKiller = temporaryKoKiller;
         board.setGroups(groupsCopy);
-
+        System.out.println("ZMIENIAM GRACZA");
+        changePlayer();
 
         return true;
     }
@@ -169,5 +172,35 @@ public class Controller {
 
     public Board getBoard(){
         return board;
+    }
+
+    public ColorEnum getCurrentPlayer() {
+        return currentPlayer;
+    }
+
+    public void setCurrentPlayer(ColorEnum currentPlayer) {
+        this.currentPlayer = currentPlayer;
+    }
+
+    public void changePlayer(){
+        currentPlayer = currentPlayer == ColorEnum.BLACK ? ColorEnum.WHITE : ColorEnum.BLACK;
+    }
+
+    public int[] getScore() {
+        int [] scores = new int[2];
+        scores[0] = blackScore;
+        scores[1] = whiteScore;
+
+        for(int x = 0; x < board.getSize(); x++){
+            for(int y = 0; y < board.getSize(); y++){
+                ColorEnum color = board.getField(x,y).getColor();
+                if(color.equals(ColorEnum.EMPTY_BLACK))
+                    scores[0]++;
+                else if(color.equals(ColorEnum.EMPTY_WHITE))
+                    scores[1]++;
+            }
+        }
+
+        return scores;
     }
 }

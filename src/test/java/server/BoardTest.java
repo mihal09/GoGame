@@ -14,18 +14,18 @@ public class BoardTest {
         controller.isMoveLegal(0,0,ColorEnum.BLACK);
         controller.isMoveLegal(2,0,ColorEnum.BLACK);
         controller.isMoveLegal(1,1,ColorEnum.BLACK);
-        Assert.assertEquals(controller.board.getGroups().size(),3);
+        Assert.assertEquals(controller.getBoard().getGroups().size(),3);
         controller.isMoveLegal(1,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.board.getGroups().size(),1);
+        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
 
         controller = new Controller(4);
         controller.isMoveLegal(0,1,ColorEnum.BLACK);
         controller.isMoveLegal(1,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.board.getGroups().size(),2);
+        Assert.assertEquals(controller.getBoard().getGroups().size(),2);
         controller.isMoveLegal(1,1,ColorEnum.BLACK);
-        Assert.assertEquals(controller.board.getGroups().size(),1);
+        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
         controller.isMoveLegal(0,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.board.getGroups().size(),1);
+        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
 
     }
 

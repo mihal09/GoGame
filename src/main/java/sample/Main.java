@@ -3,37 +3,121 @@ package sample;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
 public class Main extends Application {
+    @FXML TextField textFieldIP;
+    private Stage primaryStage;
+    private static MainController mainController;
+    private Button buttonAgree, buttonDisagree, buttonPass;
 
-    public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
-        final MainControllerTest mainController = new MainControllerTest();
+    public void start(Stage stage) throws Exception {
+        this.primaryStage = stage;
+        mainController = new MainController(this);
 
-        Button button = new Button("Wyczysc plansze");
-        button.setOnAction(new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent event) {
-                System.out.println("odwiezam");
-                mainController.clearBoard();
-            }
-        });
-        HBox hBox = new HBox(20, mainController.board, button);
-        mainController.drawBoard();
+        Parent root = FXMLLoader.load(getClass().getResource("/menu.fxml"));
+
         primaryStage.setTitle("Go");
-        primaryStage.setScene(new Scene(hBox));
+        primaryStage.setScene(new Scene(root));
         primaryStage.setMaximized(false);
         primaryStage.setResizable(true);
-        primaryStage.setMinHeight(768);
-        primaryStage.setMinWidth(1024);
+        primaryStage.setMinHeight(500);
+        primaryStage.setMinWidth(700);
         primaryStage.show();
     }
+
+    @FXML
+    private void joinGame(){
+        String ipAddress = textFieldIP.getText();
+        mainController.startClient(ipAddress);
+        System.out.println("JOIN GAME");
+    }
+
+    public void setAgreementVisibility(boolean isVisible){
+        if(isVisible){
+            buttonPass.setVisible(false);
+        }
+        else
+            buttonPass.setVisible(true);
+        buttonAgree.setVisible(isVisible);
+        buttonDisagree.setVisible(isVisible);
+    }
+
+
+    public void endGame(int blackScore, int whiteScore){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("KONIEC GRY");
+        alert.setHeaderText(null);
+        String result;
+        if(blackScore > whiteScore)
+            result="BLACK WON!";
+        else if(blackScore < whiteScore)
+            result="WHITE WON!";
+        else
+        result="DRAW!";
+        result = "BLACK SCORE: "+blackScore+" WHITE SCORE: "+whiteScore+"\n"+ result;
+        alert.setContentText(result);
+        alert.showAndWait();
+        primaryStage.close();
+    }
+
+    public void startGame(int size){
+        System.out.println("START GAME");
+        mainController.createBoard(size);
+
+        Button buttonPass = new Button("Pass");
+        this.buttonPass = buttonPass;
+        buttonPass.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                mainController.pass();
+            }
+        });
+
+        Button buttonAgree = new Button("territory agreement");
+        this.buttonAgree = buttonAgree;
+        buttonAgree.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                mainController.territoryAgree();
+            }
+        });
+
+        Button buttonDisagree = new Button("territory disagreement");
+        this.buttonDisagree = buttonDisagree;
+        buttonDisagree.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                mainController.territoryDisagree();
+            }
+        });
+
+        buttonPass.setMinWidth(250);
+        buttonAgree.setMinWidth(250);
+        buttonDisagree.setMinWidth(250);
+
+
+        buttonAgree.setVisible(false);
+        buttonDisagree.setVisible(false);
+
+        VBox vBox = new VBox(15, buttonPass, buttonAgree, buttonDisagree);
+        HBox hBox = new HBox(20, mainController.board, vBox);
+        mainController.drawBoard();
+        primaryStage.setScene(new Scene(hBox));
+        primaryStage.setMinHeight(800);
+        primaryStage.setMinWidth(1200);
+
+    }
+
 
     public static void main(String[] args) {
         launch();

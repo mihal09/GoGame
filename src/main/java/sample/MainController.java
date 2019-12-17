@@ -1,23 +1,72 @@
 package sample;
 
+import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.InnerShadow;
+import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
+import server.Player;
+
+import java.io.IOException;
 
 public class MainController {
 
-    int round = 0;
+    private ColorEnum playerColor;
+    private Main main;
+
+    private PlayerState state;
+    private Client client;
 
     @FXML
     public Board board;
-    public MainController(){
-        board = new Board();
+    public MainController(Main main){
+        this.main = main;
+        this.playerColor = playerColor;
+        client = new Client();
+        client.setController(this);
+        state = PlayerState.NO_ENEMY;
+    }
+
+    public PlayerState getState() {
+        System.out.println(state);
+        return state;
+    }
+
+    public void createBoard(int size){
+        board = new Board(size);
+    }
+
+    public void setState(PlayerState state) {
+        this.state = state;
+    }
+
+    public void setColor(ColorEnum color){
+        this.playerColor = color;
+    }
+    public ColorEnum getColor(){ return playerColor; }
+
+    @FXML
+    public void startClient(String port) {
+        // create new thread to handle network communication
+        new Thread(() -> {
+            System.out.println("Client started.");
+            try {
+                client.setConnection(port);
+                client.play();
+            } catch (IOException ex) {
+                System.out.println("Connection Error: " + ex);
+            }
+        }).start();
+    }
+
+    public void pass(){
+        client.pass(playerColor);
     }
 
     public void clearBoard(){
@@ -31,16 +80,44 @@ public class MainController {
         drawStones();
     }
 
-    void putStone(int x, int y){
-        if(board.isEmpty(x,y)){
-            round++;
-            if(round % 2 == 0)
-                board.getStone(x,y).setColor(ColorEnum.BLACK);
-            else
-                board.getStone(x,y).setColor(ColorEnum.WHITE);
-            drawStones();
+    void makeMove(int x, int y){
+        if(board.isEmpty(x,y)) {
+            client.makeMove(x,y,playerColor);
         }
     }
+
+    void startGame(int size){
+        setState(PlayerState.PLAYING);
+        main.startGame(size);
+    }
+
+    void startAgreeing(){
+        System.out.println("LOCAL AGREEMENT STARTED");
+        setState(PlayerState.AGREEING);
+        main.setAgreementVisibility(true);
+        drawBoard();
+    }
+
+    void stopAgreeing(){
+        setState(PlayerState.PLAYING);
+        main.setAgreementVisibility(false);
+        drawBoard();
+    }
+
+    void endGame(int blackScore, int whiteScore){
+        main.endGame(blackScore, whiteScore);
+    }
+
+    public void territoryAgree() {
+        System.out.println("territoryAgree");
+        client.territoryAgree(playerColor);
+    }
+
+    public void territoryDisagree() {
+        System.out.println("territoryDisagree");
+        client.territoryDisagree(playerColor);
+    }
+
 
     private void drawBackground() {
         int size = (Board.offset+Stone.radius)*board.getSize();
@@ -88,21 +165,45 @@ public class MainController {
                     board.stones[i][j] = stone;
                     final int x = i;
                     final int y = j;
-                    stone.setOnMouseClicked(new EventHandler<MouseEvent>() {
-                        public void handle(MouseEvent event) {
-                            putStone(x,y);
-                            System.out.println("on click");
-                        }
-                    });
-                    stone.setOnMouseDragOver(new EventHandler<MouseDragEvent>() {
-                        public void handle(MouseDragEvent event) {
-                            System.out.println("on mouse  over");
-                        }
-                    });
+                    if(!state.equals(PlayerState.NO_ENEMY)) {
+                        stone.setOnMouseClicked(new EventHandler<MouseEvent>() {
+                            public void handle(MouseEvent event) {
+                                if (getState().equals(PlayerState.AGREEING)) {
+                                    if (stone.getColor().equals(ColorEnum.EMPTY)|| stone.getColor().equals(ColorEnum.EMPTY_BLACK) || stone.getColor().equals(ColorEnum.EMPTY_WHITE)) {
+                                        if (playerColor.equals(ColorEnum.BLACK)) {
+                                            if(event.getButton().equals(MouseButton.PRIMARY))
+                                                client.markTerritory(x,y,ColorEnum.BLACK);
+                                            else if(event.getButton().equals(MouseButton.SECONDARY))
+                                                client.markTerritory(x,y,ColorEnum.WHITE);
+                                            else
+                                                client.markTerritory(x,y,ColorEnum.EMPTY);
+                                        }
+                                        else {
+                                            if(event.getButton().equals(MouseButton.PRIMARY))
+                                                client.markTerritory(x,y,ColorEnum.WHITE);
+                                            else if(event.getButton().equals(MouseButton.SECONDARY))
+                                                client.markTerritory(x,y,ColorEnum.BLACK);
+                                            else
+                                                client.markTerritory(x,y,ColorEnum.EMPTY);
+                                        }
+                                    }
+                                } else {
+                                    makeMove(x, y);
+                                    System.out.println("on click");
+                                }
+                            }
+                        });
+                        stone.setOnMouseDragOver(new EventHandler<MouseDragEvent>() {
+                            public void handle(MouseDragEvent event) {
+                                System.out.println("on mouse  over");
+                            }
+                        });
+                    }
                     stone.repaint();
                     board.getChildren().addAll(stone);
                 }
             }
         }
     }
+
 }

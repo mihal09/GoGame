@@ -40,21 +40,26 @@ public class Stone extends Circle {
         innerShadow.setOffsetX(3.0f);
         innerShadow.setOffsetY(3.0f);
 
-        if(color == ColorEnum.BLACK) {
-            setFill(Color.web("#1b1b1b"));
-            innerShadow.setColor(Color.web("#000000"));
-            setEffect(innerShadow);
+        switch(color) {
+            case EMPTY_BLACK:
+                setOpacity(0.5);
+            case BLACK:
+                setFill(Color.web("#1b1b1b"));
+                innerShadow.setColor(Color.web("#000000"));
+                setEffect(innerShadow);
+                break;
+            case EMPTY_WHITE:
+                setOpacity(0.5);
+            case WHITE:
+                setFill(Color.WHITE);
+                innerShadow.setColor(Color.web("#5f5f5f"));
+                setEffect(innerShadow);
+                break;
+            default:
+                setOpacity(0);
+                break;
         }
-        else if(color == ColorEnum.WHITE) {
-            setFill(Color.WHITE);
-            innerShadow.setColor(Color.web("#5f5f5f"));
-            setEffect(innerShadow);
-        }
-        else {
-            setFill(Color.GRAY);
-            //setVisible(false);
-            setOpacity(0);
-        }
+
         this.setCenterX(x);
         this.setCenterY(y);
         setRadius(radius);

@@ -23,6 +23,20 @@ public class Board {
         }
     }
 
+    public void removeTerritory(){
+        for(int i = 0; i < size; i++){
+            for(int j = 0; j < size; j++){
+                ColorEnum color = fields[i][j].getColor();
+                if(color.equals(ColorEnum.EMPTY_WHITE) || color.equals(ColorEnum.EMPTY_BLACK))
+                    fields[i][j].setColor(ColorEnum.EMPTY);
+            }
+        }
+    }
+
+    public int getSize(){return size;}
+
+    public Field getStone(int x, int y) {return fields[x][y];}
+
 //    public ArrayList<StoneGroup> makeGroupsCopy(){
 //        ArrayList<StoneGroup> copy = new ArrayList<StoneGroup>();
 //        for (StoneGroup oldGroup : groups) {

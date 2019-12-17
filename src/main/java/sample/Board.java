@@ -2,8 +2,8 @@ package sample;
 
 public class Board extends BoardAbstract {
     public static final int offset = 40;
-    public Board(){
-        size = 13;
+    public Board(int size){
+        this.size = size;
         addStones();
     }
 
