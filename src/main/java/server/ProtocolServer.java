@@ -74,6 +74,10 @@ public class ProtocolServer {
         System.out.println("GAME FINISHED SENDING SCORESS");
     }
 
+    public void surrender(String playerColor){
+        output.println("SURRENDER" + " " + playerColor);
+    }
+
     /**
      * Sends "INVALID_MOVE" message to a client.
      */

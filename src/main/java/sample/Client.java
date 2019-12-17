@@ -62,8 +62,9 @@ class Client {
         sendMessage("TERRITORY_DISAGREE" + " " + color.toString());
     }
 
+    void surrender(ColorEnum color) { sendMessage("SURRENDER" + " " + color.toString());}
 
-    public void pass(ColorEnum color){
+    void pass(ColorEnum color){
         sendMessage("PASS" + " " + color.toString());
     }
 
@@ -108,6 +109,13 @@ class Client {
                     mainController.setColor(colorEnum);
                 });
                 break;
+            case "SURRENDER":
+                String surrenderingPlayer = words[1];
+                Platform.runLater(() -> {
+                    if (!surrenderingPlayer.equals(mainController.getColor().toString()))
+                        mainController.endGameSurrend();
+                });
+
             case "SCORE":
                 int scoreBlack = Integer.parseInt(words[1]);
                 int scoreWhite = Integer.parseInt(words[2]);
@@ -154,4 +162,5 @@ class Client {
                 break;
         }
     }
+
 }

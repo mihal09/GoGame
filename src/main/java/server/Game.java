@@ -18,11 +18,21 @@ public class Game {
     private GameState gameState;
     boolean whitePassed, blackPassed;
     boolean whiteAgreed, blackAgreed;
+    private int size;
+    boolean withBot;
+
 
 
 
     public Game(int size, boolean withBot,  ServerSocket listener) throws IOException {
         this.listener = listener;
+        this.size = size;
+        this.withBot = withBot;
+        reset();
+    }
+
+    private void reset() throws IOException {
+        System.out.println("RESET");
         controller = new Controller(size);
         moveCount = 0;
         gameState = GameState.BEFORE_START;
@@ -83,8 +93,13 @@ public class Game {
             }
         }
         else if(command.startsWith("SURRENDER")){
-            //TODO
-            //KONIEC GRY
+            String words[] = command.split(" ");
+            String surrenderingPlayer = words[1];
+            for(Player player : players){
+                if(player instanceof HumanPlayer){
+                    ((HumanPlayer) player).protocol.surrender(surrenderingPlayer);
+                }
+            }
         }
         else if(command.startsWith("PASS")){
             if(!gameState.equals(GameState.MOVING))
@@ -173,7 +188,6 @@ public class Game {
 
     private void territoryAgreementFinish() {
         if(whiteAgreed && blackAgreed){
-            //TODO GAME END
             int [] scores =  controller.getScore();
             System.out.println("CALCULATING SCORE");
 

@@ -53,19 +53,27 @@ public class Main extends Application {
     }
 
 
-    public void endGame(int blackScore, int whiteScore){
+    void endGame(int blackScore, int whiteScore){
+        String message;
+        if(blackScore > whiteScore)
+            message="BLACK WON!";
+        else if(blackScore < whiteScore)
+            message="WHITE WON!";
+        else
+            message="DRAW!";
+        message = "BLACK SCORE: "+blackScore+" WHITE SCORE: "+whiteScore+"\n"+ message;
+        showEndMessage(message);
+    }
+
+    void endGameSurrend(){
+        showEndMessage("Enemy surrendered, you win!");
+    }
+
+    private void showEndMessage(String message){
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("KONIEC GRY");
         alert.setHeaderText(null);
-        String result;
-        if(blackScore > whiteScore)
-            result="BLACK WON!";
-        else if(blackScore < whiteScore)
-            result="WHITE WON!";
-        else
-        result="DRAW!";
-        result = "BLACK SCORE: "+blackScore+" WHITE SCORE: "+whiteScore+"\n"+ result;
-        alert.setContentText(result);
+        alert.setContentText(message);
         alert.showAndWait();
         primaryStage.close();
     }
@@ -80,6 +88,15 @@ public class Main extends Application {
             @Override
             public void handle(ActionEvent event) {
                 mainController.pass();
+            }
+        });
+
+        Button buttonSurrender = new Button("Surrender");
+        buttonSurrender.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                mainController.surrender();
+                showEndMessage("You surrender!");
             }
         });
 

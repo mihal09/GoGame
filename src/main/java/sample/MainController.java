@@ -69,6 +69,10 @@ public class MainController {
         client.pass(playerColor);
     }
 
+    public void surrender(){
+        client.surrender(playerColor);
+    }
+
     public void clearBoard(){
         board.clearStones();
         drawBoard();
@@ -88,6 +92,7 @@ public class MainController {
 
     void startGame(int size){
         setState(PlayerState.PLAYING);
+        createBoard(size);
         main.startGame(size);
     }
 
@@ -106,6 +111,10 @@ public class MainController {
 
     void endGame(int blackScore, int whiteScore){
         main.endGame(blackScore, whiteScore);
+    }
+
+    void endGameSurrend(){
+        main.endGameSurrend();
     }
 
     public void territoryAgree() {

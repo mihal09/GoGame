@@ -37,15 +37,6 @@ public class Board {
 
     public Field getStone(int x, int y) {return fields[x][y];}
 
-//    public ArrayList<StoneGroup> makeGroupsCopy(){
-//        ArrayList<StoneGroup> copy = new ArrayList<StoneGroup>();
-//        for (StoneGroup oldGroup : groups) {
-//            StoneGroup newGroup = new StoneGroup(oldGroup);
-//            copy.add(newGroup);
-//        }
-//        return copy;
-//    }
-
     public boolean isInsideBoard(int x, int y){
         return (x >= 0 && x < size && y >= 0 && y < size);
     }
