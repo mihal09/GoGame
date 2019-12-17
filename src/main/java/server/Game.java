@@ -4,6 +4,7 @@ import server.board.Board;
 import server.board.Field;
 import server.enums.ColorEnum;
 import server.enums.GameState;
+import server.player.BotMoveStrategy;
 import server.player.HumanPlayer;
 import server.player.Player;
 
@@ -56,7 +57,7 @@ public class Game {
         if(!withBot)
             players.add(new HumanPlayer(ColorEnum.WHITE, listener.accept()));
         else
-            players.add(new BotPlayer(ColorEnum.WHITE, this));
+            players.add(new BotPlayer(ColorEnum.WHITE, this, new RandomStrategy()));
     }
 
     private void runPlayers() {
@@ -207,13 +208,37 @@ public class Game {
         }
     }
 
+    public class RandomStrategy implements BotMoveStrategy {
+        public void move(ColorEnum color){
+            Board board = logicController.getBoard();
+            for(int i = 0; i< board.getSize(); i++){
+                for(int j = 0; j< board.getSize(); j++){
+                    if(board.getField(i,j).getColor().equals(ColorEnum.EMPTY)){
+                        boolean isValid = logicController.isMoveLegal(i,j,color);
+                        if(isValid){
+                            for(Player player : players){
+                                if(player instanceof HumanPlayer){
+                                    ((HumanPlayer) player).protocol.validMove(i,j, color.toString());
+                                    ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
     public class BotPlayer extends Player {
         private Game game;
+        BotMoveStrategy botMoveStrategy;
 
-        BotPlayer(ColorEnum color, Game game) {
+        BotPlayer(ColorEnum color, Game game, BotMoveStrategy botMoveStrategy) {
             alive = true;
             this.game = game;
             this.color = color;
+            this.botMoveStrategy = botMoveStrategy;
         }
 
         @Override
@@ -247,25 +272,9 @@ public class Game {
             }
         }
 
-        private void move(){
-            Board board = logicController.getBoard();
-            for(int i = 0; i< board.getSize(); i++){
-                for(int j = 0; j< board.getSize(); j++){
-                    if(board.getField(i,j).getColor().equals(ColorEnum.EMPTY)){
-                        boolean isValid = logicController.isMoveLegal(i,j,color);
-                        if(isValid){
-                            for(Player player : players){
-                                if(player instanceof HumanPlayer){
-                                    ((HumanPlayer) player).protocol.validMove(i,j, color.toString());
-                                    ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
-                                }
-                            }
-                            break;
-                        }
-                    }
-                }
-            }
 
+        public void move(){
+            botMoveStrategy.move(color);
         }
     }
 

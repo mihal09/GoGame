@@ -25,6 +25,16 @@ public class StoneGroupTest {
     }
 
     @Test
+    public void containsStone() {
+        Board board = new Board(10);
+        StoneGroup group = new StoneGroup(board, ColorEnum.WHITE);
+        Field stone = new Field(0,0, ColorEnum.WHITE);
+        Assert.assertEquals(group.containsStone(stone), false);
+        group.addStone(stone);
+        Assert.assertEquals(group.containsStone(stone), true);
+    }
+
+    @Test
     public void getSize() {
     }
 
@@ -44,7 +54,4 @@ public class StoneGroupTest {
     public void getBoard() {
     }
 
-    @Test
-    public void containsStone() {
-    }
 }

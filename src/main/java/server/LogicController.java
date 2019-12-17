@@ -29,7 +29,6 @@ public class LogicController {
     public boolean isMoveLegal(int x, int y, ColorEnum color){
         if(!currentPlayer.equals(color))
             return false;
-        System.out.println("zaczynam sprawdzac legalnosc");
         if(!board.isEmpty(x,y))
             return false;
 
@@ -151,7 +150,7 @@ public class LogicController {
         koKilled = temporaryKoKilled ;
         koKiller = temporaryKoKiller;
         board.setGroups(groupsCopy);
-        System.out.println("ZMIENIAM GRACZA");
+
         changePlayer();
 
         return true;
