@@ -1,4 +1,4 @@
-package sample;
+package client;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -42,7 +42,7 @@ public class Main extends Application {
         System.out.println("JOIN GAME");
     }
 
-    public void setAgreementVisibility(boolean isVisible){
+    void setAgreementVisibility(boolean isVisible){
         if(isVisible){
             buttonPass.setVisible(false);
         }
@@ -65,7 +65,7 @@ public class Main extends Application {
         showEndMessage(message);
     }
 
-    void endGameSurrend(){
+    void endGameSurrender(){
         showEndMessage("Enemy surrendered, you win!");
     }
 
@@ -78,7 +78,7 @@ public class Main extends Application {
         primaryStage.close();
     }
 
-    public void startGame(int size){
+    void startGame(int size){
         System.out.println("START GAME");
         mainController.createBoard(size);
 
@@ -127,7 +127,7 @@ public class Main extends Application {
         buttonDisagree.setVisible(false);
 
         VBox vBox = new VBox(15, buttonPass, buttonAgree, buttonDisagree);
-        HBox hBox = new HBox(20, mainController.board, vBox);
+        HBox hBox = new HBox(20, mainController.getBoard(), vBox);
         mainController.drawBoard();
         primaryStage.setScene(new Scene(hBox));
         primaryStage.setMinHeight(800);

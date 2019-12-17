@@ -1,18 +1,20 @@
 package server;
 
-import com.sun.xml.internal.bind.v2.TODO;
+import server.board.Board;
+import server.board.Field;
+import server.enums.ColorEnum;
+import server.enums.GameState;
+import server.player.HumanPlayer;
+import server.player.Player;
 
-import java.awt.*;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Game {
     private ServerSocket listener;
-    private Controller controller;
+    private LogicController logicController;
     private List<Player> players;
     private int moveCount;
     private GameState gameState;
@@ -33,7 +35,7 @@ public class Game {
 
     private void reset() throws IOException {
         System.out.println("RESET");
-        controller = new Controller(size);
+        logicController = new LogicController(size);
         moveCount = 0;
         gameState = GameState.BEFORE_START;
         addPlayers(withBot);
@@ -57,9 +59,9 @@ public class Game {
         }
     }
 
-    public Controller getController() {return  controller;}
+    public LogicController getLogicController() {return logicController;}
 
-    void handleCommand(String command){ // MOVE 3 5 BLACK
+    public void handleCommand(String command){ // MOVE 3 5 BLACK
         System.out.println("Command from a client: " + command);
         if (command.startsWith("MOVE")) {
             if(!gameState.equals(GameState.MOVING))
@@ -70,15 +72,15 @@ public class Game {
             int y = Integer.parseInt(words[2]);
             String color = words[3];
             ColorEnum colorEnum = color.equals("BLACK") ? ColorEnum.BLACK : ColorEnum.WHITE ;
-            if(controller.getCurrentPlayer().toString().equals(color)){
-                boolean isValid = controller.isMoveLegal(x,y, colorEnum);
+            if(logicController.getCurrentPlayer().toString().equals(color)){
+                boolean isValid = logicController.isMoveLegal(x,y, colorEnum);
                 if(isValid){
                     System.out.println("VALID MOVE");
                     moveCount++;
                     for(Player player : players){
                         if(player instanceof HumanPlayer){
                             ((HumanPlayer) player).protocol.validMove(x,y,color);
-                            ((HumanPlayer) player).protocol.sendBoard(controller.getBoard());
+                            ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
                         }
                     }
                 }
@@ -106,13 +108,13 @@ public class Game {
                 return;
             String words[] = command.split(" "); //PASS BLACK
             String color = words[1];
-            if(!controller.getCurrentPlayer().toString().equals(color)) // NOT HIS TURN
+            if(!logicController.getCurrentPlayer().toString().equals(color)) // NOT HIS TURN
                 return;
             if(color.equals("BLACK"))
                 blackPassed = true;
             else if(color.equals("WHITE"))
                 whitePassed = true;
-            controller.changePlayer();
+            logicController.changePlayer();
             territoryAgreementStart();
 
         }
@@ -123,7 +125,7 @@ public class Game {
             int x = Integer.parseInt(words[1]);
             int y = Integer.parseInt(words[2]);
             String color = words[3];
-            Field stone = controller.getBoard().getField(x,y);
+            Field stone = logicController.getBoard().getField(x,y);
             if(stone.getColor().equals(ColorEnum.EMPTY) || stone.getColor().equals(ColorEnum.EMPTY_BLACK) || stone.getColor().equals(ColorEnum.EMPTY_WHITE)){
                 if(color.equals("BLACK"))
                     stone.setColor(ColorEnum.EMPTY_BLACK);
@@ -133,7 +135,7 @@ public class Game {
                     stone.setColor(ColorEnum.EMPTY);
                 for(Player player : players){
                     if(player instanceof HumanPlayer){
-                        ((HumanPlayer) player).protocol.sendBoard(controller.getBoard());
+                        ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
                     }
                 }
             }
@@ -158,15 +160,15 @@ public class Game {
             String color = words[1];
             gameState = GameState.MOVING;
             if(color.equals("BLACK"))
-                controller.setCurrentPlayer(ColorEnum.BLACK);
+                logicController.setCurrentPlayer(ColorEnum.BLACK);
             else if(color.equals("WHITE"))
-                controller.setCurrentPlayer(ColorEnum.WHITE);
+                logicController.setCurrentPlayer(ColorEnum.WHITE);
 
-            controller.getBoard().removeTerritory();
+            logicController.getBoard().removeTerritory();
             for(Player player : players){
                 if(player instanceof HumanPlayer){
                     ((HumanPlayer) player).protocol.territoryDisagreement();
-                    ((HumanPlayer) player).protocol.sendBoard(controller.getBoard());
+                    ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
                 }
             }
         }
@@ -188,7 +190,7 @@ public class Game {
 
     private void territoryAgreementFinish() {
         if(whiteAgreed && blackAgreed){
-            int [] scores =  controller.getScore();
+            int [] scores =  logicController.getScore();
             System.out.println("CALCULATING SCORE");
 
             for(Player player : players){
@@ -213,7 +215,7 @@ public class Game {
             while (alive) {
                 synchronized (this) {
 
-                    if (game.getController().getCurrentPlayer().equals(this.color) || blackPassed) {
+                    if (game.getLogicController().getCurrentPlayer().equals(this.color) || blackPassed) {
                         try {
                             if(blackPassed){
                                 if(!whitePassed){
@@ -226,7 +228,7 @@ public class Game {
                                     whiteAgreed = true;
                                     territoryAgreementFinish();
                                 }
-                                controller.changePlayer();
+                                logicController.changePlayer();
                             }
                             else if(gameState.equals(GameState.MOVING))
                                 move();
@@ -240,16 +242,16 @@ public class Game {
         }
 
         private void move(){
-            Board board = controller.getBoard();
+            Board board = logicController.getBoard();
             for(int i = 0; i< board.getSize(); i++){
                 for(int j = 0; j< board.getSize(); j++){
                     if(board.getField(i,j).getColor().equals(ColorEnum.EMPTY)){
-                        boolean isValid = controller.isMoveLegal(i,j,color);
+                        boolean isValid = logicController.isMoveLegal(i,j,color);
                         if(isValid){
                             for(Player player : players){
                                 if(player instanceof HumanPlayer){
                                     ((HumanPlayer) player).protocol.validMove(i,j, color.toString());
-                                    ((HumanPlayer) player).protocol.sendBoard(controller.getBoard());
+                                    ((HumanPlayer) player).protocol.sendBoard(logicController.getBoard());
                                 }
                             }
                             break;

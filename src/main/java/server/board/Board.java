@@ -1,4 +1,6 @@
-package server;
+package server.board;
+
+import server.enums.ColorEnum;
 
 import java.util.ArrayList;
 
@@ -18,7 +20,7 @@ public class Board {
         fields = new Field[size][size];
         for(int i = 0; i < size; i++){
             for(int j = 0; j < size; j++){
-                fields[i][j] = new Field(i,j,ColorEnum.EMPTY);
+                fields[i][j] = new Field(i,j, ColorEnum.EMPTY);
             }
         }
     }
@@ -59,7 +61,7 @@ public class Board {
         return null;
     }
 
-    ArrayList<StoneGroup> getGroups(){
+    public ArrayList<StoneGroup> getGroups(){
         return groups;
     }
 

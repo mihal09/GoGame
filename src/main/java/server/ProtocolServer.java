@@ -1,14 +1,15 @@
 package server;
 
+import server.board.Board;
+
 import java.io.PrintWriter;
 
-import static sample.ColorEnum.*;
 
 public class ProtocolServer {
     private final PrintWriter output;
 
 
-    ProtocolServer(PrintWriter output) {
+    public ProtocolServer(PrintWriter output) {
         this.output = output;
         System.out.println("New protocol created.");
     }
@@ -16,7 +17,7 @@ public class ProtocolServer {
     /**
      * Sends "START_GAME" message to a client.
      */
-    void startGame(Board board) {
+    public void startGame(Board board) {
         output.println("START_GAME " + board.getSize());
         System.out.println("startGame has been send.");
     }

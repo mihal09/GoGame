@@ -1,4 +1,6 @@
-package server;
+package server.board;
+
+import server.enums.ColorEnum;
 
 public class Field {
     private int x;

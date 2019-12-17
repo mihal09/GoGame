@@ -1,10 +1,14 @@
 package server;
 
-import sample.Stone;
+
+import server.board.Board;
+import server.board.Field;
+import server.board.StoneGroup;
+import server.enums.ColorEnum;
 
 import java.util.ArrayList;
 
-public class Controller {
+public class LogicController {
     private Board board;
     Field koKilled;
     Field koKiller;
@@ -13,7 +17,7 @@ public class Controller {
     private ColorEnum currentPlayer;
     int whiteScore, blackScore;
 
-    public Controller(int size){
+    public LogicController(int size){
         board = new Board(size);
         koKilled = null;
         koKilled = null;

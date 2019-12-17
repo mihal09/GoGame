@@ -1,4 +1,8 @@
-package server;
+package server.player;
+
+import server.Game;
+import server.ProtocolServer;
+import server.enums.ColorEnum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +17,7 @@ public class HumanPlayer extends Player {
     private Game game;
     private final Socket socket;
 
-    HumanPlayer(ColorEnum color, Socket socket, Game game) {
+    public HumanPlayer(ColorEnum color, Socket socket, Game game) {
         alive = true;
         this.game = game;
         this.color = color;
@@ -37,7 +41,7 @@ public class HumanPlayer extends Player {
     public void run() {
         try {
             System.out.println("All players connected");
-            protocol.startGame(game.getController().getBoard());
+            protocol.startGame(game.getLogicController().getBoard());
             while (alive) {
                 String command = input.readLine();
                 if (command != null) {

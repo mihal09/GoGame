@@ -2,8 +2,10 @@ package server;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import server.board.Board;
+import server.board.Field;
+import server.board.StoneGroup;
+import server.enums.ColorEnum;
 
 public class StoneGroupTest {
 

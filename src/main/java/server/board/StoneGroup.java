@@ -1,4 +1,8 @@
-package server;
+package server.board;
+
+import server.board.Board;
+import server.board.Field;
+import server.enums.ColorEnum;
 
 import java.util.ArrayList;
 
@@ -14,14 +18,14 @@ public class StoneGroup {
         this.board = board;
     }
 
-    public StoneGroup(StoneGroup stoneGroup){
-        this.color = stoneGroup.getColor();
-        this.board = stoneGroup.getBoard();
-        stones = new ArrayList<Field>();
-        for (Field stone : stoneGroup.getStones()) {
-            stones.add(stone);
-        }
-    }
+//    public StoneGroup(StoneGroup stoneGroup){
+//        this.color = stoneGroup.getColor();
+//        this.board = stoneGroup.getBoard();
+//        stones = new ArrayList<Field>();
+//        for (Field stone : stoneGroup.getStones()) {
+//            stones.add(stone);
+//        }
+//    }
 
     public int size(){
         return stones.size();

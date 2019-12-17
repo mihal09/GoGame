@@ -1,8 +1,7 @@
-package sample;
+package client;
+import client.enums.ColorEnum;
 import javafx.application.Platform;
-import server.Player;
 
-import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +14,6 @@ class Client {
     private BufferedReader in;
     private PrintWriter out;
     private MainController mainController;
-    private boolean success;
 
 
     void setController(MainController mainController) {
@@ -113,7 +111,7 @@ class Client {
                 String surrenderingPlayer = words[1];
                 Platform.runLater(() -> {
                     if (!surrenderingPlayer.equals(mainController.getColor().toString()))
-                        mainController.endGameSurrend();
+                        mainController.endGameSurrender();
                 });
 
             case "SCORE":
@@ -126,25 +124,25 @@ class Client {
                 break;
             case "BOARD":
                 String sentBoard = words[1];
-                int size = mainController.board.getSize();
+                int size = mainController.getBoard().getSize();
                 for (int x=0; x<size; x++) {
                     for (int y = 0; y < size; y++) {
                         char field = sentBoard.charAt(x * size + y);
                         switch (field) {
                             case 'B':
-                                mainController.board.getStone(x, y).setColor(ColorEnum.BLACK);
+                                mainController.getBoard().getStone(x, y).setColor(ColorEnum.BLACK);
                                 break;
                             case 'W':
-                                mainController.board.getStone(x, y).setColor(ColorEnum.WHITE);
+                                mainController.getBoard().getStone(x, y).setColor(ColorEnum.WHITE);
                                 break;
                             case 'E':
-                                mainController.board.getStone(x, y).setColor(ColorEnum.EMPTY);
+                                mainController.getBoard().getStone(x, y).setColor(ColorEnum.EMPTY);
                                 break;
                             case '1':
-                                mainController.board.getStone(x, y).setColor(ColorEnum.EMPTY_BLACK);
+                                mainController.getBoard().getStone(x, y).setColor(ColorEnum.EMPTY_BLACK);
                                 break;
                             case '2':
-                                mainController.board.getStone(x, y).setColor(ColorEnum.EMPTY_WHITE);
+                                mainController.getBoard().getStone(x, y).setColor(ColorEnum.EMPTY_WHITE);
                                 break;
                         }
                     }

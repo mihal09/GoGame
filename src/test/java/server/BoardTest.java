@@ -2,30 +2,30 @@ package server;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import server.board.Board;
+import server.enums.ColorEnum;
 
 public class BoardTest {
 
     @org.junit.Test
     public void isMoveLegal() {
 
-        Controller controller = new Controller(4);
-        controller.isMoveLegal(0,0,ColorEnum.BLACK);
-        controller.isMoveLegal(2,0,ColorEnum.BLACK);
-        controller.isMoveLegal(1,1,ColorEnum.BLACK);
-        Assert.assertEquals(controller.getBoard().getGroups().size(),3);
-        controller.isMoveLegal(1,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
+        LogicController logicController = new LogicController(4);
+        logicController.isMoveLegal(0,0, ColorEnum.BLACK);
+        logicController.isMoveLegal(2,0,ColorEnum.BLACK);
+        logicController.isMoveLegal(1,1,ColorEnum.BLACK);
+        Assert.assertEquals(logicController.getBoard().getGroups().size(),3);
+        logicController.isMoveLegal(1,0,ColorEnum.BLACK);
+        Assert.assertEquals(logicController.getBoard().getGroups().size(),1);
 
-        controller = new Controller(4);
-        controller.isMoveLegal(0,1,ColorEnum.BLACK);
-        controller.isMoveLegal(1,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.getBoard().getGroups().size(),2);
-        controller.isMoveLegal(1,1,ColorEnum.BLACK);
-        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
-        controller.isMoveLegal(0,0,ColorEnum.BLACK);
-        Assert.assertEquals(controller.getBoard().getGroups().size(),1);
+        logicController = new LogicController(4);
+        logicController.isMoveLegal(0,1,ColorEnum.BLACK);
+        logicController.isMoveLegal(1,0,ColorEnum.BLACK);
+        Assert.assertEquals(logicController.getBoard().getGroups().size(),2);
+        logicController.isMoveLegal(1,1,ColorEnum.BLACK);
+        Assert.assertEquals(logicController.getBoard().getGroups().size(),1);
+        logicController.isMoveLegal(0,0,ColorEnum.BLACK);
+        Assert.assertEquals(logicController.getBoard().getGroups().size(),1);
 
     }
 

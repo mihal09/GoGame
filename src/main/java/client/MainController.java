@@ -1,17 +1,17 @@
-package sample;
+package client;
 
-import javafx.application.Platform;
+import client.board.Board;
+import client.board.Stone;
+import client.enums.ColorEnum;
+import client.enums.PlayerState;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.effect.DropShadow;
-import javafx.scene.effect.InnerShadow;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
-import server.Player;
 
 import java.io.IOException;
 
@@ -23,36 +23,38 @@ public class MainController {
     private PlayerState state;
     private Client client;
 
+    Board getBoard() {
+        return board;
+    }
+
     @FXML
-    public Board board;
-    public MainController(Main main){
+    private Board board;
+    MainController(Main main){
         this.main = main;
-        this.playerColor = playerColor;
         client = new Client();
         client.setController(this);
         state = PlayerState.NO_ENEMY;
     }
 
-    public PlayerState getState() {
-        System.out.println(state);
+    PlayerState getState() {
         return state;
     }
 
-    public void createBoard(int size){
+    void createBoard(int size){
         board = new Board(size);
     }
 
-    public void setState(PlayerState state) {
+    void setState(PlayerState state) {
         this.state = state;
     }
 
-    public void setColor(ColorEnum color){
+    void setColor(ColorEnum color){
         this.playerColor = color;
     }
-    public ColorEnum getColor(){ return playerColor; }
+    ColorEnum getColor(){ return playerColor; }
 
     @FXML
-    public void startClient(String port) {
+    void startClient(String port) {
         // create new thread to handle network communication
         new Thread(() -> {
             System.out.println("Client started.");
@@ -65,20 +67,14 @@ public class MainController {
         }).start();
     }
 
-    public void pass(){
+    void pass(){
         client.pass(playerColor);
     }
-
-    public void surrender(){
+    void surrender(){
         client.surrender(playerColor);
     }
 
-    public void clearBoard(){
-        board.clearStones();
-        drawBoard();
-    }
-
-    public void drawBoard(){
+    void drawBoard(){
         drawBackground();
         drawLines();
         drawStones();
@@ -89,53 +85,43 @@ public class MainController {
             client.makeMove(x,y,playerColor);
         }
     }
-
     void startGame(int size){
         setState(PlayerState.PLAYING);
         createBoard(size);
         main.startGame(size);
     }
-
     void startAgreeing(){
         System.out.println("LOCAL AGREEMENT STARTED");
         setState(PlayerState.AGREEING);
         main.setAgreementVisibility(true);
         drawBoard();
     }
-
     void stopAgreeing(){
         setState(PlayerState.PLAYING);
         main.setAgreementVisibility(false);
         drawBoard();
     }
-
     void endGame(int blackScore, int whiteScore){
         main.endGame(blackScore, whiteScore);
     }
-
-    void endGameSurrend(){
-        main.endGameSurrend();
+    void endGameSurrender(){
+        main.endGameSurrender();
     }
-
-    public void territoryAgree() {
+    void territoryAgree() {
         System.out.println("territoryAgree");
         client.territoryAgree(playerColor);
     }
-
-    public void territoryDisagree() {
+    void territoryDisagree() {
         System.out.println("territoryDisagree");
         client.territoryDisagree(playerColor);
     }
-
-
     private void drawBackground() {
-        int size = (Board.offset+Stone.radius)*board.getSize();
+        int size = (Board.offset+ Stone.radius)*board.getSize();
         Rectangle rect = new Rectangle(0,0,size,size);
         rect.setFill(Color.web("#e0ac69"));
         board.getChildren().addAll(rect);
     }
-
-    public void drawLines(){
+    private void drawLines(){
         Color color = Color.web("#462a12");
         int length = (board.getSize()-1)*Stone.radius + (board.getSize()-1)*Board.offset;
         for (int i = 0; i < board.getSize(); i++) {
@@ -163,15 +149,14 @@ public class MainController {
         }
 
     }
-
-    public void drawStones() {
+    private void drawStones() {
         for (int i = 0; i < board.getSize(); i++) {
             for (int j = 0; j < board.getSize(); j++) {
                 if (board.getStone(i, j) != null) {
                     Stone oldStone = board.getStone(i, j);
                     oldStone.setEffect(null);
                     final Stone stone = new Stone(oldStone);
-                    board.stones[i][j] = stone;
+                    getBoard().setStone(i,j,stone);
                     final int x = i;
                     final int y = j;
                     if(!state.equals(PlayerState.NO_ENEMY)) {

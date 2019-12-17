@@ -1,6 +1,7 @@
-package sample;
+package client.board;
 
 
+import client.enums.ColorEnum;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.InnerShadow;
 import javafx.scene.paint.Color;
@@ -14,13 +15,13 @@ public class Stone extends Circle {
     private ColorEnum color;
     public final static int radius = 25;
 
-    Stone(int x, int y, ColorEnum color) {
+    public Stone(int x, int y, ColorEnum color) {
         this.x = x;
         this.y = y;
         this.color = color;
     }
 
-    Stone(Stone stone){
+    public Stone(Stone stone){
         x = stone.x;
         y = stone.y;
         color = stone.color;
