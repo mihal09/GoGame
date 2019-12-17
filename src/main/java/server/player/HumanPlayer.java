@@ -14,12 +14,10 @@ public class HumanPlayer extends Player {
     BufferedReader input;
     PrintWriter output;
     public ProtocolServer protocol;
-    private Game game;
     private final Socket socket;
 
-    public HumanPlayer(ColorEnum color, Socket socket, Game game) {
+    public HumanPlayer(ColorEnum color, Socket socket) {
         alive = true;
-        this.game = game;
         this.color = color;
         this.socket = socket;
 
@@ -41,11 +39,11 @@ public class HumanPlayer extends Player {
     public void run() {
         try {
             System.out.println("All players connected");
-            protocol.startGame(game.getLogicController().getBoard());
+            protocol.startGame(Game.getInstance().getLogicController().getBoard());
             while (alive) {
                 String command = input.readLine();
                 if (command != null) {
-                    game.handleCommand(command);
+                    Game.getInstance().handleCommand(command);
                 }
             }
         } catch (IOException ex) {

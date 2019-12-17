@@ -23,10 +23,16 @@ public class Game {
     private int size;
     boolean withBot;
 
+    private static Game instance;
 
+    public static Game getInstance() throws IOException {
+        if(instance == null) {
+            instance = new Game();
+        }
+        return instance;
+    }
 
-
-    public Game(int size, boolean withBot,  ServerSocket listener) throws IOException {
+    public void initialise(int size, boolean withBot,  ServerSocket listener) throws IOException {
         this.listener = listener;
         this.size = size;
         this.withBot = withBot;
@@ -46,9 +52,9 @@ public class Game {
 
     private void addPlayers(boolean withBot) throws IOException {
         players = new ArrayList<>();
-        players.add(new HumanPlayer(ColorEnum.BLACK, listener.accept(), this));
+        players.add(new HumanPlayer(ColorEnum.BLACK, listener.accept()));
         if(!withBot)
-            players.add(new HumanPlayer(ColorEnum.WHITE, listener.accept(), this));
+            players.add(new HumanPlayer(ColorEnum.WHITE, listener.accept()));
         else
             players.add(new BotPlayer(ColorEnum.WHITE, this));
     }

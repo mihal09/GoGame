@@ -18,7 +18,7 @@ public class Server {
     public void start() throws IOException {
         try (ServerSocket listener = new ServerSocket(port)) {
             System.out.println("Server is running.");
-            new Game(size,withBot,listener);
+            Game.getInstance().initialise(size,withBot,listener);
         }
     }
 }
