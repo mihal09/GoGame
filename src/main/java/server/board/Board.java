@@ -63,7 +63,4 @@ public class Board {
         return groups;
     }
 
-    public void removeGroup(StoneGroup group){
-        groups.remove(group);
-    }
 }

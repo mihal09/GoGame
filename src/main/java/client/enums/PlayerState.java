@@ -1,5 +1,5 @@
 package client.enums;
 
 public enum PlayerState {
-    NO_ENEMY, PLAYING, PASSED, AGREEING;
+    NO_ENEMY, PLAYING, AGREEING
 }

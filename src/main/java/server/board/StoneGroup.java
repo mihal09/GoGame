@@ -13,20 +13,10 @@ public class StoneGroup {
     private ArrayList<Field> stones;
 
     public StoneGroup(Board board, ColorEnum color){
-        stones = new ArrayList<Field>();
+        stones = new ArrayList<>();
         this.color = color;
         this.board = board;
     }
-
-//    public StoneGroup(StoneGroup stoneGroup){
-//        this.color = stoneGroup.getColor();
-//        this.board = stoneGroup.getBoard();
-//        stones = new ArrayList<Field>();
-//        for (Field stone : stoneGroup.getStones()) {
-//            stones.add(stone);
-//        }
-//    }
-
     public int getSize(){
         return stones.size();
     }
