@@ -210,12 +210,14 @@ public class Game {
 
     public class RandomStrategy implements BotMoveStrategy {
         public void move(ColorEnum color){
+            boolean hasMoved = false;
             Board board = logicController.getBoard();
             for(int i = 0; i< board.getSize(); i++){
                 for(int j = 0; j< board.getSize(); j++){
                     if(board.getField(i,j).getColor().equals(ColorEnum.EMPTY)){
                         boolean isValid = logicController.isMoveLegal(i,j,color);
                         if(isValid){
+                            hasMoved = true;
                             for(Player player : players){
                                 if(player instanceof HumanPlayer){
                                     ((HumanPlayer) player).protocol.validMove(i,j, color.toString());
@@ -228,6 +230,12 @@ public class Game {
                 }
             }
 
+            if(!hasMoved){
+                System.out.println("NIE MAM RUCHU");
+                whitePassed = true;
+                territoryAgreementStart();
+                logicController.changePlayer();
+            }
         }
     }
     public class BotPlayer extends Player {
@@ -245,8 +253,12 @@ public class Game {
         public void run() {
             while (alive) {
                 synchronized (this) {
-
                     if (game.getLogicController().getCurrentPlayer().equals(this.color) || blackPassed) {
+                        try {
+                            Thread.sleep(200);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         try {
                             if(blackPassed){
                                 if(!whitePassed){
@@ -261,8 +273,9 @@ public class Game {
                                 }
                                 logicController.changePlayer();
                             }
-                            else if(gameState.equals(GameState.MOVING))
+                            else if(gameState.equals(GameState.MOVING)) {
                                 move();
+                            }
                         } catch (NullPointerException ex) {
                             ex.printStackTrace();
                             System.out.println("BLĄD W: " + color);

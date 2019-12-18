@@ -136,7 +136,7 @@ public class Main extends Application {
         buttonAgree.setVisible(false);
         buttonDisagree.setVisible(false);
 
-        VBox vBox = new VBox(15, buttonPass, buttonAgree, buttonDisagree);
+        VBox vBox = new VBox(15, buttonPass, buttonSurrender, buttonAgree, buttonDisagree);
         HBox hBox = new HBox(20, mainController.getBoard(), vBox);
         mainController.drawBoard();
         primaryStage.setScene(new Scene(hBox));

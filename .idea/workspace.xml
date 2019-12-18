@@ -4,19 +4,12 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="tests + uml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/board/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/board/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/board/Stone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/enums/PlayerState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/enums/PlayerState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Game$BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Game$BotPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Game$RandomStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Game$RandomStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Main.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,6 +87,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/LogicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="925">
@@ -105,11 +107,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/board/BoardAbstract.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="316">
+              <caret line="260" column="25" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10769#10770#0" expanded="true" />
+                <element signature="e#10820#10821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="281">
+              <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1485#1486#0" expanded="true" />
@@ -140,11 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+            <state relative-caret-position="1217">
+              <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#makeMove#0;class#MainController#0" />
@@ -155,36 +183,6 @@
                 <element signature="method#territoryDisagree#0;class#MainController#0" />
                 <element signature="method#drawLines#0;class#MainController#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-490">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/ColorEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -204,17 +202,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>draw</find>
-      <find>pass</find>
-      <find>surrend</find>
-      <find>start_Game</find>
       <find>startGamee</find>
       <find>start_GAME</find>
       <find>endGame</find>
       <find>startGam</find>
       <find>startGame</find>
       <find>Surrender</find>
-      <find>surrender</find>
       <find>buttonSurrender</find>
       <find>primarySt</find>
       <find>setcolor</find>
@@ -234,6 +227,11 @@
       <find>legalno</find>
       <find>zmieniam</find>
       <find>botplay</find>
+      <find>suicid</find>
+      <find>suicide</find>
+      <find>isMoveLegal</find>
+      <find>surrender</find>
+      <find>botpl</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -285,7 +283,6 @@
         <option value="$PROJECT_DIR$/src/test/java/server/board/FieldTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/server/GameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/server/board/BoardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/server/LogicControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/player/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Server.java" />
@@ -295,15 +292,16 @@
         <option value="$PROJECT_DIR$/src/test/java/client/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/client/MainControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/LogicController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/board/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/board/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/board/Stone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Game.java" />
       </list>
     </option>
   </component>
@@ -487,7 +485,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576626006271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576627376218" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -535,7 +533,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.server">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -578,6 +576,7 @@
     <configuration name="server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="server.Main" />
       <module name="GoMA" />
+      <option name="PROGRAM_PARAMETERS" value="5 true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -937,7 +936,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28456375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28456375" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -947,7 +946,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3937677" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1756374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.194051" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1188,27 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="241" column="9" lean-forward="true" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#RandomStrategy#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/client/MainControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1242,20 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/LogicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1363,10 +1327,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#makeMove#0;class#MainController#0" />
+            <element signature="method#startGame#0;class#MainController#0" />
+            <element signature="method#startAgreeing#0;class#MainController#0" />
+            <element signature="method#stopAgreeing#0;class#MainController#0" />
+            <element signature="method#territoryAgree#0;class#MainController#0" />
+            <element signature="method#territoryDisagree#0;class#MainController#0" />
+            <element signature="method#drawLines#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="281">
+          <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1485#1486#0" expanded="true" />
@@ -1378,13 +1379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1395,19 +1393,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/LogicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="260" column="25" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#makeMove#0;class#MainController#0" />
-            <element signature="method#startGame#0;class#MainController#0" />
-            <element signature="method#startAgreeing#0;class#MainController#0" />
-            <element signature="method#stopAgreeing#0;class#MainController#0" />
-            <element signature="method#territoryAgree#0;class#MainController#0" />
-            <element signature="method#territoryDisagree#0;class#MainController#0" />
-            <element signature="method#drawLines#0;class#MainController#0" />
+            <element signature="e#10769#10770#0" expanded="true" />
+            <element signature="e#10820#10821#0" expanded="true" />
           </folding>
         </state>
       </provider>
