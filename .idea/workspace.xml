@@ -1,140 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../3SEM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/test/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/abstractfactory/src/test/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/HTMLBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/IReportBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/JSONBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/builders/XMLBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/test/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/src/test/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/HTMLBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/IReportBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/JSONBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/classes/eu/jpereira/trainings/designpatterns/creational/builder/builders/XMLBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/test-classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/builder/target/test-classes/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/CompositeShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/HTMLReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/JSONReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/PDFReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ConcreteGenerators/XMLReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/test-classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/factorymethod/target/test-classes/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/CommandJobIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/CommandJobIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/state/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP listy/javatrainings/designpatterns/trunk/state/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/checkstyleidea-libs/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/TP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/TP.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieFakturyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieKlientaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/DodawanieUslugiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Faktura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/FakturyStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ILoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Klient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/KlientStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/MockingLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ObliczCeneFaktury.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ObliczCeneUslugi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/ResourceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/Usluga.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/WyswietlanieFakturyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/java/sample/sample2.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodanieUslugi.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodawanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/dodawanieKlienta.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/mainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/main/resources/wyswietlanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/test/java/sample/ObliczCeneFakturyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/src/test/java/sample/sample.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodanieUslugi.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodawanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/dodawanieKlienta.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/mainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieFakturyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieKlientaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/DodawanieUslugiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Faktura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/FakturyStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ILoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Klient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/KlientStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/MockingLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ObliczCeneFaktury.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ObliczCeneUslugi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/ResourceManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/Usluga.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/sample/WyswietlanieFakturyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/classes/wyswietlanieFaktury.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP — kopia/target/test-classes/sample/ObliczCeneFakturyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bazy/lista 4.txt" beforeDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="tests + uml">
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Game.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,6 +13,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GoMA$All_in_GoMA__2_.ic" NAME="All in GoMA (2) Coverage Results" MODIFIED="1576615561607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GoMA$All_in_GoMA.ic" NAME="All in GoMA Coverage Results" MODIFIED="1576622532651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -193,10 +65,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/client.plantuml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/LogicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10769#10770#0" expanded="true" />
+                <element signature="e#10820#10821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,48 +136,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="281">
+              <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="method#setAgreementVisibility#0;class#Main#0" />
+                <element signature="method#endGame#0;class#Main#0" />
+                <element signature="method#showEndMessage#0;class#Main#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="1217">
+              <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#makeMove#0;class#MainController#0" />
+                <element signature="method#startGame#0;class#MainController#0" />
+                <element signature="method#startAgreeing#0;class#MainController#0" />
+                <element signature="method#stopAgreeing#0;class#MainController#0" />
+                <element signature="method#territoryAgree#0;class#MainController#0" />
+                <element signature="method#territoryDisagree#0;class#MainController#0" />
+                <element signature="method#drawLines#0;class#MainController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -257,8 +186,46 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>startGamee</find>
+      <find>start_GAME</find>
+      <find>endGame</find>
+      <find>startGam</find>
+      <find>startGame</find>
+      <find>Surrender</find>
+      <find>buttonSurrender</find>
+      <find>primarySt</find>
+      <find>setcolor</find>
+      <find>server.</find>
+      <find>setCurrentPlayer</find>
+      <find>reset</find>
+      <find>sample.</find>
+      <find>getfield</find>
+      <find>getstone</find>
+      <find>removeterr</find>
+      <find>legal</find>
+      <find>finddeadGro</find>
+      <find>getScore</find>
+      <find>handle</find>
+      <find>game</find>
+      <find>bot</find>
+      <find>legalno</find>
+      <find>zmieniam</find>
+      <find>botplay</find>
+      <find>suicid</find>
+      <find>suicide</find>
+      <find>isMoveLegal</find>
+      <find>surrender</find>
+      <find>botpl</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -266,26 +233,93 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ola" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Main.css" />
+        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/BotPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/MainControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/ColorEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ColorEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/PlayerState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Stone.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/StoneGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/board/BoardAbstract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/logicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/enums/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ProtocolServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/server/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/board/Field.java" />
+        <option value="$PROJECT_DIR$/src/test/java/server/board/FieldTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/server/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/server/board/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/server/LogicControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/player/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/board/board.plantuml" />
+        <option value="$PROJECT_DIR$/src/test/java/server/board/StoneGroupTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/client/board/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/client/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/client/MainControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/LogicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/board/Stone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Game.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in GoMA (2)" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GoMA" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1614" />
-    <option name="height" value="878" />
+    <option name="width" value="1615" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -296,6 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -328,7 +363,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
@@ -343,11 +422,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,13 +478,41 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575145747566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576628552700" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoMA klient1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="client" />
+      <recent name="client.board" />
+      <recent name="server" />
+      <recent name="server.board" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="server" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GoMA\UML" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample" />
+      <recent name="server" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -379,7 +526,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.server">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -398,13 +545,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.MainController" />
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="client.Main" />
       <module name="GoMA" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,6 +562,50 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="server.Main" />
+      <module name="GoMA" />
+      <option name="PROGRAM_PARAMETERS" value="13 false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in GoMA (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoMA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in GoMA (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoMA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in GoMA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoMA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -451,6 +641,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.server" />
+      <item itemvalue="JUnit.All in GoMA" />
+      <item itemvalue="JUnit.All in GoMA (1)" />
+      <item itemvalue="JUnit.All in GoMA (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in GoMA" />
+        <item itemvalue="JUnit.All in GoMA (2)" />
+        <item itemvalue="JUnit.All in GoMA (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -464,32 +668,324 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1575146350349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575146350349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added abstract Board class">
+      <created>1575209773118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209773118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added color enum">
+      <created>1575209816680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209816680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Stone class">
+      <created>1575209848756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209848756</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added board class">
+      <created>1575209893846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209893846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor board abstract">
+      <created>1575209910187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209910187</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gui changes">
+      <created>1575209939819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209939819</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main controller changes">
+      <created>1575209955476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209955476</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gui">
+      <created>1575209962097</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209962097</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gui">
+      <created>1575209984014</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209984014</updated>
+    </task>
+    <task id="LOCAL-00011" summary="minor gui changes">
+      <created>1575462370574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575462370578</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added field class">
+      <created>1575555307676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575555307676</updated>
+    </task>
+    <task id="LOCAL-00013" summary="class field finished">
+      <created>1575555908043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575555908043</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added board class">
+      <created>1575556908945</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575556908945</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added stone group class">
+      <created>1575557702493</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575557702493</updated>
+    </task>
+    <task id="LOCAL-00016" summary="stone group development">
+      <created>1575561999010</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575561999010</updated>
+    </task>
+    <task id="LOCAL-00017" summary="board tests and board development">
+      <created>1575581841473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575581841473</updated>
+    </task>
+    <task id="LOCAL-00018" summary="stone group tests">
+      <created>1575662130001</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575662130001</updated>
+    </task>
+    <task id="LOCAL-00019" summary="stone group more tests">
+      <created>1575754939213</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575754939213</updated>
+    </task>
+    <task id="LOCAL-00020" summary="board tests">
+      <created>1575755187746</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575755187746</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added game controller">
+      <created>1576162999242</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162999242</updated>
+    </task>
+    <task id="LOCAL-00022" summary="many changes">
+      <created>1576163026752</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163026752</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bug fixes of game logic">
+      <created>1576164207512</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576164207512</updated>
+    </task>
+    <task id="LOCAL-00024" summary="BIG gui and server changes">
+      <created>1576596471764</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576596471764</updated>
+    </task>
+    <task id="LOCAL-00025" summary="everything works">
+      <created>1576615159151</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576615159151</updated>
+    </task>
+    <task id="LOCAL-00026" summary="beautify">
+      <created>1576616809452</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576616809452</updated>
+    </task>
+    <task id="LOCAL-00027" summary="some tests">
+      <created>1576619029133</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576619029133</updated>
+    </task>
+    <task id="LOCAL-00028" summary="TEST">
+      <created>1576619561320</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576619561320</updated>
+    </task>
+    <task id="LOCAL-00029" summary="tests + uml">
+      <created>1576623432773</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576623432773</updated>
+    </task>
+    <task id="LOCAL-00030" summary="tests + uml">
+      <created>1576623598128</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1576623598128</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 39m 14s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 39m 26s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 42m 15s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 44m 21s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 49m 49s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 50m 28s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 50m 55s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 53m 40s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 54m 11s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GoMA - 2019.12.17 at 23h 54m 45s.xml">
+      <configuration name="All in GoMA" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28456375" />
+      <window_info id="Structure" order="1" weight="0.24966443" />
+      <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3937677" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27903682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.19830029" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.10764872" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="Statistic" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.15864022" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.3295302" />
+      <window_info anchor="right" id="PlantUML" order="8" weight="0.15771812" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25771812" />
+      <window_info id="Structure" order="1" weight="0.24966443" />
+      <window_info id="Favorites" order="2" weight="0.3295302" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="simpleUML" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2917847" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2549575" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
@@ -510,53 +1006,79 @@
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="added color enum" />
+    <MESSAGE value="added Stone class" />
+    <MESSAGE value="refactor board abstract" />
+    <MESSAGE value="gui changes" />
+    <MESSAGE value="main controller changes" />
+    <MESSAGE value="gui" />
+    <MESSAGE value="minor gui changes" />
+    <MESSAGE value="added field class" />
+    <MESSAGE value="class field finished" />
+    <MESSAGE value="added board class" />
+    <MESSAGE value="added stone group class" />
+    <MESSAGE value="stone group development" />
+    <MESSAGE value="board tests and board development" />
+    <MESSAGE value="stone group tests" />
+    <MESSAGE value="stone group more tests" />
+    <MESSAGE value="board tests" />
+    <MESSAGE value="added game controller" />
+    <MESSAGE value="many changes" />
+    <MESSAGE value="bug fixes of game logic" />
+    <MESSAGE value="BIG gui and server changes" />
+    <MESSAGE value="everything works" />
+    <MESSAGE value="beautify" />
+    <MESSAGE value="some tests" />
+    <MESSAGE value="TEST" />
+    <MESSAGE value="tests + uml" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests + uml" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Field.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/BoardTest.groovy" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="415">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/classes/sample/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/BotPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/MainControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#6713#6714#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,15 +1086,322 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/board/FieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/board/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/LogicControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/enums.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/board.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/board/board.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/StoneGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" selection-start-line="36" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/board/StoneGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoMA.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UML/client.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UML/server.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/client/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/client/MainControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/client/board/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/board/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ProtocolServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/server.plantuml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="73" selection-start-line="73" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/player/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/player/BotMoveStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/enums/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/enums/ColorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/board/StoneGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/PlayerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/enums/ColorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/BoardAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/client.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#makeMove#0;class#MainController#0" />
+            <element signature="method#startGame#0;class#MainController#0" />
+            <element signature="method#startAgreeing#0;class#MainController#0" />
+            <element signature="method#stopAgreeing#0;class#MainController#0" />
+            <element signature="method#territoryAgree#0;class#MainController#0" />
+            <element signature="method#territoryDisagree#0;class#MainController#0" />
+            <element signature="method#drawLines#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="method#setAgreementVisibility#0;class#Main#0" />
+            <element signature="method#endGame#0;class#Main#0" />
+            <element signature="method#showEndMessage#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/LogicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10769#10770#0" expanded="true" />
+            <element signature="e#10820#10821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -643,6 +1472,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
