@@ -166,8 +166,10 @@ public class Game {
             String words[] = command.split(" ");
             String color = words[1];
             gameState = GameState.MOVING;
-            if(color.equals("BLACK"))
+            if(color.equals("BLACK")) {
+                System.out.println("BLACK DISAGREE");
                 logicController.setCurrentPlayer(ColorEnum.BLACK);
+            }
             else if(color.equals("WHITE"))
                 logicController.setCurrentPlayer(ColorEnum.WHITE);
 
@@ -253,12 +255,12 @@ public class Game {
         public void run() {
             while (alive) {
                 synchronized (this) {
+                    try {
+                        Thread.sleep(200);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     if (game.getLogicController().getCurrentPlayer().equals(this.color) || blackPassed) {
-                        try {
-                            Thread.sleep(200);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
                         try {
                             if(blackPassed){
                                 if(!whitePassed){

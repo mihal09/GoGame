@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="tests + uml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Game$BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Game$BotPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Game$RandomStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Game$RandomStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Main.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="260" column="25" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
+            <state relative-caret-position="239">
+              <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#10769#10770#0" expanded="true" />
@@ -485,7 +478,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576627376218" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576628552700" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -576,7 +569,7 @@
     <configuration name="server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="server.Main" />
       <module name="GoMA" />
-      <option name="PROGRAM_PARAMETERS" value="5 true" />
+      <option name="PROGRAM_PARAMETERS" value="13 false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -936,7 +929,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28456375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28456375" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -946,7 +939,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3937677" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.194051" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27903682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1402,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="260" column="25" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
+        <state relative-caret-position="239">
+          <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#10769#10770#0" expanded="true" />
